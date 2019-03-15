@@ -7768,9 +7768,6 @@ a.text-dark:hover, a.text-dark:focus {
 .section__security__btn {
   width: 160px; }
 
-.section__careers {
-  padding-top: 249px; }
-
 .section__careers__titel {
   font-size: 52px;
   font-weight: 400;
@@ -7788,10 +7785,13 @@ a.text-dark:hover, a.text-dark:focus {
 .careers__tile__title {
   font-size: 25px;
   font-weight: 500;
-  color: #4b4b4b; }
+  color: #4b4b4b;
+  margin-top: 15px; }
 
 .careers__tile {
-  height: 200px; }
+  height: 200px;
+  border: 1px solid #f4f4f4;
+  border-radius: 8px; }
 
 .careers__tile__text {
   font-size: 16px;
@@ -7813,7 +7813,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .contact__titel {
   font-size: 52px;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-top: 120px; }
 
 .contact__form {
   padding-top: 69px;
@@ -7824,7 +7825,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0; }
 
 .contact__form__input {
-  padding: 59px 0 0 0; }
+  padding: 53px 0 0 0; }
 
 .btn__send {
   width: 140px;
@@ -8067,8 +8068,7 @@ p {
 
 .main__box__titel {
   font-size: 25px;
-  font-weight: 500;
-  color: #4b4b4b; }
+  font-weight: 500; }
 
 .card-header {
   background-color: #fff;
@@ -8076,3 +8076,13 @@ p {
 
 .card {
   border: 0; }
+
+.active {
+  color: #fff !important;
+  background-color: #8a53d3 !important; }
+
+.card-body {
+  padding-left: 63px; }
+
+.accordion {
+  margin-top: 101px; }

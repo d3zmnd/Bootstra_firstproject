@@ -4,38 +4,38 @@
     <title>Odo homepage</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link rel="stylesheet" href="css/main.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <title>Firstpage</title>
+    
+    <title>Стартовая страница</title>
 </head>
 <body>    
     <header class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-7 col-xl-6">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-lg  d-none d-lg-flex header__navbar">
-                        <a href=""><img src="./img/logo.png" alt="logo"></a>        
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="#product">Product</a>
+                    <nav class="navbar navbar-expand-lg d-none d-lg-flex header__navbar col-12">
+                        <a href="index.html" class=""><img src="./img/logo.png" alt="logo"></a>
+                        <ul class="navbar-nav mt-4 ml-3 ">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link navbar-brand m-0" href="index.html#product">Product</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#security_mobile">About Odo</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link navbar-brand m-0" href="index.html#security_mobile">About Odo</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="careers.html">Careers</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link navbar-brand m-0" href="careers.html">Careers</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.html">FAQ</a>
+                            <li class="nav-item mx-2 ">
+                                <a class="nav-link navbar-brand m-0" href="faq.html">FAQ</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact Us</a>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link navbar-brand m-0" href="#contact">Contact Us</a>
                             </li>
-                        </ul>                    
+                        </ul>
+                        
                     </nav>
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white header__navbar d-lg-none">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white d-lg-none">
                         <a href=""><img src="./img/logo.png" alt="logo"></a>
                         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
@@ -43,16 +43,16 @@
                         <div class="collapse navbar-collapse d-lg-flex align-items-end" id="collapsibleNavbar">
                             <ul class="navbar-nav pl-3 text-right">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#product_mobile">Product</a>
+                                    <a class="nav-link" href="index.html#product_mobile">Product</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#security">About Odo</a>
+                                    <a class="nav-link" href="index.html#security">About Odo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="careers.html">Careers</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="faq.html">FAQ</a>
+                                <li class="nav-item ">
+                                    <a class="nav-link navbar-brand" href="faq.html">FAQ</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact Us</a>
@@ -210,7 +210,7 @@
     </section>
     <section>
         <div class="d-none d-lg-block col-lg-12" style="height:180px" id="security_mobile"></div>
-        <div class="d-flex d-lg-none col-12" style="height:231px" id="security"></div>
+        <div class="d-flex d-lg-none col-12" style="height:115px" id="security"></div>        
         <div class="col-12 text-center">
             <div class="col-12 d-flex">
                 <div class="col-md-1 col-lg d-none d-lg-flex"></div>
@@ -274,8 +274,7 @@
                     data-flip="false" aria-haspopup="false" aria-expanded="false">
                     <span><img src="./img/Shape.png" alt="1" style="max-width: 100%; "></span>
                 </button>
-                <div class="dropdown-menu border-0">
-    
+                <div class="dropdown-menu border-0">    
                     <div class="col-12 titel__dropdown">
                         Control Plane
                     </div>
@@ -707,6 +706,8 @@
                     <img src="./img/pexels-photo-440581.jpg" class="img-fluid" alt="logo">
                 </div>     
             </div>
+            <div class="col-12 d-none d-lg-block" style="height: 249px" ></div>
+            <div class="col-12  d-lg-none" style="height: 159px"></div>
         </div>
     </section>
     <section class="container-fluid section__careers" id="careers">
@@ -726,7 +727,7 @@
             <div class="col-lg-12" style="height: 92px;"></div>
             <div class="col-12 d-md-flex">
                 <div class="col-sm col-md- col-lg"></div>
-                <div class="col-sm-11 col-md-5 col-lg-4 careers__tile d-flex flex-column">
+                <div class="col-sm-11 col-md-5 col-lg-4 col-xl-3 careers__tile d-flex flex-column">
                     <div class="careers__tile__title ">
                         Senior Front End Developer
                     </div>
@@ -741,7 +742,7 @@
                 <div class="d-md-none col-sm"></div>
                 <div class="d-lg-none col-md"></div>
                 <div class="col-lg-12 d-md-none" style="height: 60px;"></div>
-                <div class="col-sm-11 col-md-5 col-lg-4 careers__tile d-flex flex-column ">
+                <div class="col-sm-11 col-md-5 col-lg-4 col-xl-3 careers__tile d-flex flex-column ">
                     <div class="careers__tile__title ">
                         Back End Developer
                     </div>
@@ -757,8 +758,8 @@
             <div class="col-lg-12 d-md-block d-none" style="height: 92px;"></div>
             <div class="col-12 d-md-flex">
                 <div class="col-lg-12 d-md-none" style="height: 60px;"></div>
-                <div class="col-sm col-md- col-lg"></div>
-                <div class="col-sm-11 col-md-5 col-lg-4 careers__tile d-flex flex-column ">
+                <div class="col-sm col-md col-lg"></div>
+                <div class="col-sm-11 col-md-5 col-lg-4  col-xl-3 careers__tile d-flex flex-column ">
                     <div class="careers__tile__title ">
                         DevOps Engineer
                     </div>
@@ -773,7 +774,7 @@
                 <div class="col-lg-12 d-md-none" style="height: 60px;"></div>
                 <div class="d-md-none col-sm"></div>
                 <div class="d-lg-none col-md"></div>
-                <div class="col-sm-11 col-md-5 col-lg-4 careers__tile d-flex flex-column ">
+                <div class="col-sm-11 col-md-5 col-lg-4 col-xl-3 careers__tile d-flex flex-column ">
                     <div class="careers__tile__title ">
                         Content Marketing Manager
                     </div>
@@ -785,54 +786,63 @@
                     </div>
                 </div>
                 <div class="col-sm col-md col-lg"></div>
-            </div>  
+            </div> 
+            <div class="col-lg-12 d-none d-lg-block" style="height: 156px"></div>
+            <div class="col-lg-12 d-lg-none" style="height: 126px"></div>
         </div>
     </section>
-    <section class="container-fluid contact"  >
-        <div class="row">
-            <div class="col-12" style="padding-top: 280px;"></div>
+<section class="container-fluid contact bg-light">
+    <div class="row">
+
+        <div class="col-lg-1"></div>
+        <div class="col-lg contact__titel text-center text-md-left " id="contact">
+            Request a demo
+        </div>
+    </div>
+    <form>
+        <div class="form-row contact__form">
             <div class="col-lg-1"></div>
-            <div class="col-lg contact__titel" id="contact" >
-                Request a Demo
+            <div class="col-lg-4">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Name">
             </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 d-none d-lg-block ">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Email">
+            </div>
+            <div class="col-lg-4 contact__form__input d-lg-none">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Email">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 contact__form__input">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Company">
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 contact__form__input">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Titel">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 contact__form__input">
+                <input type="text" class="bg-light form-control rounded-0 border-top-0 border-left-0 border-right-0"
+                    placeholder="Message">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 contact__form__input">
+                <button type="button" class="btn btn-primary float-right btn__send d-none d-lg-block">Send</button>
+                <button type="button" class="btn btn-primary float-left btn__send d-lg-none">Send</button>
+            </div>
+            <div class="col-lg-1"></div>
         </div>
-            <form>
-                <div class="form-row contact__form">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-4">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Name">
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-4 d-none d-lg-block ">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Email">
-                    </div>
-                    <div class="col-lg-4 contact__form__input d-lg-none">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Email">
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-4 contact__form__input">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Company">
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-4 contact__form__input">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Titel">
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10 contact__form__input">
-                        <input type="text" class="form-control rounded-0 border-top-0 border-left-0 border-right-0" placeholder="Message">
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10 contact__form__input">
-                        <button type="button" class="btn btn-primary float-right btn__send d-none d-lg-block">Send</button>
-                        <button type="button" class="btn btn-primary float-left btn__send d-lg-none">Send</button>
-                    </div>                    
-                    <div class="col-lg-1"></div>
-                </div>
-            </form>
-    </section>
+    </form>
+    <div class="col-lg-12" style="height:120px;"></div>
+</section>
     <footer class="container-fluid footer">
         <div class="row">
             <div class="col-lg-12 footer__link d-lg-flex d-block">
@@ -845,7 +855,7 @@
                     <div class="col-sm-12 col-lg-6 d-lg-block text-lg-center align-self-center px-lg-0"><a href="">Terms and Conditions</a></div>
                     <div class="col-sm-12 d-lg-none" style="height:20px"></div>
                     <div class="px-0 col-sm-12 col-lg-6 d-flex text-left">
-                        <div class="col-sm-6 col-lg-6  align-self-center px-lg-0"><a href="">Privacy Policy</a></div>
+                        <div class="col-sm-6 col-lg-6  align-self-center text-center px-lg-0"><a href="">Privacy Policy</a></div>
                         <div class="col-sm-6 col-lg-6 text-right align-self-center px-lg-0">Odo© 2019</div>
                     </div>
                     </div>
@@ -855,11 +865,5 @@
         <div class="pt-3 pt-md-5 h-100 w-100"></div>        
     </footer>
 <script src="js/main.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 </body>
 </html>
