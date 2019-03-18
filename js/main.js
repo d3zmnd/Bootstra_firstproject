@@ -17955,13 +17955,11 @@ return Popper;
 $(document).on('click', function () {
     $('#collapsibleNavbar').collapse('hide');
 });
-
-
 $(function () {
     $('#accordionExample .card').on('hide.bs.collapse', function (e) {
         $("#accordionExample .card-header").removeClass("active");
         $("#accordionExample .card-body").removeClass("active");
-        $("#icon").attr("src", "./img/Shape_grey.png");
+        $(e.currentTarget).find("#icon").attr("src", "./img/Shape_grey.png");
     });
 
     $('#accordionExample .card').on('shown.bs.collapse', function (e) {
@@ -17970,3 +17968,8 @@ $(function () {
         $(e.currentTarget).find("#icon").attr("src", "./img/Shape__up.png");
     });    
 });
+
+$('#myDropdown').on('show.bs.dropdown', function () {
+        $('#dropdown').dropdown('show');
+    
+})
